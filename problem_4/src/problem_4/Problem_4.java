@@ -4,17 +4,23 @@
  */
 package problem_4;
 
+import java.util.Scanner;
+
 /**
  *
  * @author computop
  */
 public class Problem_4 {
 
-    /**
-     * @param args the command line arguments
-     */
+   static Scanner input=new Scanner(System.in);
     public static void main(String[] args) {
         // TODO code application logic here
+        long A=input.nextLong();
+        long B=input.nextLong();
+        long C=input.nextLong();
+        long D=input.nextLong();
+        long X=(A*B)-(C*D);
+        System.out.println("Difference = "+X);
     }
     
 }
