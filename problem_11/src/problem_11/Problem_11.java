@@ -22,6 +22,7 @@ public class Problem_11 {
              max=C;
          }
          
+         
          if(A<=B&&A<=C){
               min=A;
           }
