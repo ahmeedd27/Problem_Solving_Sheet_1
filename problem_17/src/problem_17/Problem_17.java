@@ -26,10 +26,10 @@ public class Problem_17 {
          else if(n1==0 && n2==0){
             System.out.println("Origem");
         }
-         else if(n1>0 && n2==0){
+         else if(n1!=0 && n2==0){
             System.out.println("Eixo X");
         }
-         else if(n1==0 && n2>0){
+         else if(n1==0 && n2!=0){
             System.out.println("Eixo Y");
         }
     }
